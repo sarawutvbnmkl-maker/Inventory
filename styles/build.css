@@ -1,0 +1,31 @@
+/* สไตล์เฉพาะหน้าจัดสเปคคอม (ใช้ร่วมกับ style.css) */
+.bhero{margin-top:20px;border-radius:20px;padding:30px 40px;color:#fff}
+.bhero h1{margin:0 0 6px;font-size:clamp(1.6rem,4vw,2.4rem)}
+.bhero p{margin:0;opacity:.85}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;margin-top:16px}
+.panel h3{margin:0 0 10px;font-size:1rem}
+.auto{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.auto select,.auto input,.slot select{border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:10px;padding:9px 12px;font:inherit;min-width:0}
+.auto input{width:140px}
+.btn{background:var(--accent);color:#fff;border:0;border-radius:10px;padding:10px 18px;font-weight:700}
+.presets{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.pchip{border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:99px;padding:6px 14px;font-size:.88rem}
+.pchip b{color:var(--accent)}
+.layout{display:grid;grid-template-columns:1fr 340px;gap:18px;align-items:start;margin-top:16px}
+.slot{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:center;margin-bottom:10px}
+.slot .e{font-size:1.7rem;background:var(--tile);border-radius:10px;height:48px;display:grid;place-items:center}
+.slot label{font-size:.8rem;color:var(--muted);font-weight:600;display:block;margin-bottom:4px}
+.slot select{width:100%}
+.slot.bad{border-color:#e11d2e}
+.sum{position:sticky;top:calc(70px + env(safe-area-inset-top,0px));background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px}
+.sum h3{margin:0 0 10px}
+.line{display:flex;justify-content:space-between;gap:10px;font-size:.88rem;padding:5px 0;border-bottom:1px dashed var(--line)}
+.line span:first-child{color:var(--muted)}
+.tot{display:flex;justify-content:space-between;align-items:baseline;margin:14px 0 4px;font-weight:700}
+.tot b{font-size:1.6rem;color:var(--accent)}
+.warn{background:#e11d2e18;border:1px solid #e11d2e;color:var(--text);border-radius:10px;padding:8px 12px;font-size:.85rem;margin:8px 0}
+.ok{background:#16a34a1c;border:1px solid #16a34a;border-radius:10px;padding:8px 12px;font-size:.85rem;margin:8px 0}
+.acts{display:grid;gap:8px;margin-top:12px}
+.acts .ghost{width:100%}
+.hdlink{background:var(--accent);color:#fff;text-decoration:none;font-weight:700;border-radius:99px;padding:10px 18px;white-space:nowrap}
+@media (max-width:860px){.layout{grid-template-columns:1fr}.sum{position:static}.bhero{padding:24px}}

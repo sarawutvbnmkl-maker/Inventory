@@ -1,0 +1,31 @@
+/* สไตล์เฉพาะหน้าคอมเซ็ต (ใช้ร่วมกับ style.css) */
+.shero{margin-top:20px;border-radius:20px;padding:30px 40px;color:#fff}
+.shero h1{margin:0 0 6px;font-size:clamp(1.6rem,4vw,2.4rem)}
+.shero p{margin:0;opacity:.85}
+.ftools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:20px}
+.fchip{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:99px;padding:7px 16px;font-weight:600}
+.fchip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.ftools select{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:10px;padding:8px 12px;font:inherit}
+.count{color:var(--muted);font-size:.88rem;margin-top:14px}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;margin-top:10px}
+.scard{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.spic{background:linear-gradient(135deg,var(--tile),var(--bg));aspect-ratio:1.6;font-size:4.5rem;display:grid;place-items:center;position:relative}
+.stag{position:absolute;top:10px;right:10px;background:var(--text);color:var(--bg);font-size:.72rem;font-weight:700;padding:2px 10px;border-radius:6px}
+.sb{padding:14px;display:grid;gap:6px;flex:1;align-content:start}
+.sb h3{margin:0;font-size:1.05rem}
+.specs{margin:2px 0;padding:0;list-style:none;font-size:.84rem;color:var(--muted);display:grid;gap:2px}
+.inst{font-size:.8rem;color:var(--muted)}
+.srow{display:flex;gap:8px;margin-top:8px}
+.srow button{flex:1;border-radius:10px;padding:9px;font-weight:700}
+.btnp{background:var(--accent);color:#fff;border:0}
+.btng{background:none;color:var(--text);border:1px solid var(--line)}
+.dbox{width:min(560px,100%);text-align:left;max-height:90vh;overflow:auto}
+.dbox h3{font-size:1.3rem}
+.dbox table{width:100%;border-collapse:collapse;font-size:.92rem}
+.dbox th,.dbox td{border-bottom:1px solid var(--line);padding:7px 4px;text-align:left}
+.dbox th{color:var(--muted);font-weight:600;width:38%}
+.dbox ul{margin:6px 0;padding-left:20px;font-size:.9rem}
+.dnote{background:var(--tile);border-left:4px solid var(--accent);border-radius:8px;padding:10px 14px;font-size:.85rem}
+.dlink{display:block;text-align:center;text-decoration:none;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px;font-weight:700}
+.hdlink{background:var(--accent);color:#fff;text-decoration:none;font-weight:700;border-radius:99px;padding:10px 18px;white-space:nowrap}
+@media (max-width:700px){.shero{padding:24px}}

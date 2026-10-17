@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TechHub – ร้านคอมพิวเตอร์ครบวงจร</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="top"><div class="w"><span>📞 02-123-4567</span><span>✉️ hello@techhub.example</span><span>TechHub ถ้าคุณชอบคอมพิวเตอร์ เราคือเพื่อนกัน</span></div></div>
+<div class="hd"><div class="w"><div class="logo">Tech<b>Hub</b></div><label class="search">🔍<input id="q" type="search" placeholder="ค้นหาสินค้า"></label><button class="cartbtn" id="openCart" aria-label="ตะกร้า">🛍️<span id="cnt">0</span></button></div></div>
+<div class="nav"><div class="w"><button class="catbtn" id="allcat">▦ หมวดหมู่สินค้า</button><div class="links"><a href="#">หน้าแรก</a><a href="pages/sets.html">คอมพิวเตอร์เซ็ต</a><a href="pages/build.html">จัดสเปคคอม</a><a href="pages/articles.html">บทความ</a><a href="pages/contact.html">ติดต่อเรา</a><a href="pages/about.html">เกี่ยวกับเรา</a></div></div></div>
+<div class="w">
+<div class="slider" id="slider">
+<div class="sview"><div class="slides" id="slides">
+<div class="hero"><small>UPGRADE OCTOBER 2026</small><h1>เลือกคอมพิวเตอร์ที่เหมาะกับคุณ</h1><p>คอมเซ็ตพร้อมใช้งาน เลือกตามการใช้งานทั้งเล่นเกม ตัดต่อ และทำงาน</p><a class="cta" href="pages/sets.html">ดูคอมเซ็ตทั้งหมด &gt;</a><div class="big">🖥️</div></div>
+<div class="hero h2"><small>BUILD YOUR OWN</small><h1>จัดสเปคคอมด้วยตัวเอง</h1><p>เลือกชิ้นส่วนทีละชิ้น ดูราคารวมทันที พร้อมตรวจความเข้ากันได้ให้</p><a class="cta" href="pages/build.html">เริ่มจัดสเปค &gt;</a><div class="big">🧩</div></div>
+<div class="hero h3"><small>NEW ARRIVAL</small><h1>โน้ตบุ๊ก AI PC รุ่นใหม่</h1><p>บางเบา แรงพอสำหรับงานและเรียน พกไปได้ทุกที่</p><a class="cta" href="#list" data-gocat="โน้ตบุ๊ก">ดูโน้ตบุ๊ก &gt;</a><div class="big">💻</div></div>
+</div></div>
+<button class="sarr prev" id="sprev" aria-label="ภาพก่อนหน้า">‹</button><button class="sarr next" id="snext" aria-label="ภาพถัดไป">›</button>
+<div class="dots" id="dots"></div>
+</div>
+<section class="promos"><a class="promo p1" href="pages/contact.html"><b>Trade-in เครื่องเก่า<br>แลกของใหม่</b><span>ปรึกษาประเมินราคาได้ที่ร้าน</span></a><a class="promo p2" href="pages/sets.html"><b>ช้อปง่าย สบายกระเป๋า<br>ผ่อน 0% สูงสุด 10 เดือน</b><span>*เงื่อนไขเป็นไปตามที่ร้านกำหนด</span></a><a class="promo p3" href="#list" data-gocat="โน้ตบุ๊ก"><b>TechHub AI PC<br>พลัง AI ในมือคุณ</b><span>โน้ตบุ๊กรุ่นใหม่ล่าสุด</span></a></section>
+<section class="usp"><div><i>🚚</i><b>จัดส่งทั่วไทย</b><span>ส่งฟรีตามเงื่อนไขร้าน</span></div><div><i>🛡️</i><b>รับประกันชัดเจน</b><span>แจ้งเงื่อนไขก่อนซื้อ</span></div><div><i>💳</i><b>ผ่อนชำระได้</b><span>สแกนจ่าย PromptPay ได้ทันที</span></div><div><i>💬</i><b>ปรึกษาฟรี</b><span>ทีมงานช่วยจัดสเปคให้</span></div></section>
+<h2 class="sec">หมวดหมู่สินค้า</h2>
+<div class="cats" id="cats"></div>
+<h2 class="sec" id="list">สินค้าแนะนำ</h2>
+<main class="grid" id="grid"></main>
+</div>
+<footer>© TechHub · เว็บตัวอย่างดีไซน์ร้านคอมพิวเตอร์ออนไลน์</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="scripts/cart.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
